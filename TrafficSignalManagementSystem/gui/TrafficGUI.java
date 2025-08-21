@@ -1,10 +1,11 @@
 package TrafficSignalManagementSystem.gui;
 
+import javax.swing.*;
+
 import TrafficSignalManagementSystem.model.*;
 import TrafficSignalManagementSystem.thread.*;
 import TrafficSignalManagementSystem.utils.VehicleGenerator;
 
-import javax.swing.*;
 import java.awt.*;
 import java.util.LinkedList;
 import java.util.PriorityQueue;

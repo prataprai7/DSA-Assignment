@@ -1,12 +1,12 @@
 package TrafficSignalManagementSystem.thread;
 
-import TrafficSignalManagementSystem.model.TrafficLight;
-import TrafficSignalManagementSystem.model.Vehicle;
-import TrafficSignalManagementSystem.gui.TrafficGUI;
-
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.PriorityQueue;
+
+import TrafficSignalManagementSystem.gui.TrafficGUI;
+import TrafficSignalManagementSystem.model.TrafficLight;
+import TrafficSignalManagementSystem.model.Vehicle;
 
 public class EmergencyHandler extends Thread {
     private final PriorityQueue<Vehicle> emergencyQueue;

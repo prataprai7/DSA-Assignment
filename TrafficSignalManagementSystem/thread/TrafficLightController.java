@@ -1,9 +1,9 @@
 package TrafficSignalManagementSystem.thread;
 
-import TrafficSignalManagementSystem.model.TrafficLight;
-
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+
+import TrafficSignalManagementSystem.model.TrafficLight;
 
 public class TrafficLightController extends Thread {
     private final TrafficLight light;

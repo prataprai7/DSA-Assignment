@@ -1,12 +1,12 @@
 package TrafficSignalManagementSystem.thread;
 
-import TrafficSignalManagementSystem.model.TrafficLight;
-import TrafficSignalManagementSystem.model.Vehicle;
-
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.PriorityQueue;
 import java.util.Queue;
+
+import TrafficSignalManagementSystem.model.TrafficLight;
+import TrafficSignalManagementSystem.model.Vehicle;
 
 public class VehicleProcessor extends Thread {
     private final Queue<Vehicle> normalQueue;

@@ -1,6 +1,7 @@
 package TrafficSignalManagementSystem;
 
 import javax.swing.SwingUtilities;
+
 import TrafficSignalManagementSystem.gui.TrafficGUI;
 
 /**

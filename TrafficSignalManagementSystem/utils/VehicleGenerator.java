@@ -1,9 +1,9 @@
 package TrafficSignalManagementSystem.utils;
 
-import TrafficSignalManagementSystem.model.Vehicle;
-
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
+
+import TrafficSignalManagementSystem.model.Vehicle;
 
 public class VehicleGenerator {
     private static final AtomicInteger count = new AtomicInteger(0);
